@@ -1,0 +1,117 @@
+*{margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+html, body{
+    height: 100vh;
+    width: 100%;
+}
+
+#main{
+    padding: 30px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#box{
+    position: relative;
+    text-align: center;
+    height: 40vh;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+}
+
+#name{
+    position: absolute;
+    margin-top: 10px;
+    left: 43%;
+    display: flex;
+    justify-content:space-between; 
+    width: 10%;
+
+}
+
+#quantity{
+    width: 44%;
+    display: flex;
+    justify-content: space-between;
+    /* position: absolute;
+    top: 20%;
+    left: 30%; */
+}
+
+#date{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+
+#Cost{
+    position: absolute;
+    top: 40%;
+    left: 58%;
+    display: flex;
+    justify-content: space-between;
+    width: 12%;
+}
+
+#date-quantity{
+    position: absolute;
+    top: 40%;
+    left: 28%;
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+#tcost{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    height: 33px;
+    width: 200px;
+    background-color: rgb(236, 156, 156);
+}
+
+#t-exp{
+    width: 70px;
+    height: 18px;
+    background-color: #fff;
+    margin-left: 10px;
+}
+
+input{
+    width: 120px;
+    margin-left: 10px;
+}
+
+button{
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    background-color: green;
+}
+
+h3{
+    color: green;
+}
+
+table{
+    margin-top: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    width: 50%;
+    border-collapse: collapse;
+}
+
+table, td, th{
+    border: 1px solid black;
+    padding: 10px;
+}
